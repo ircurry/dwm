@@ -1,3 +1,14 @@
+My dwm
+==================
+This is my fork of dwm. There isn't much to it since dwm is feature complete.I have riced 
+it by following Bugswriter's guide (https://www.youtube.com/watch?v=g8_d2rnwQdo)with in 
+reason. I will tweak it every now an then but as for right it is bascially perfect.
+
+Patches applied:
+ - Fullgapps (https://dwm.suckless.org/patches/fullgaps/)
+
+Below is the rest of dwm's read me.
+
 dwm - dynamic window manager
 ============================
 dwm is an extremely fast, small, and dynamic window manager for X.
