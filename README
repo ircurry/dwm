@@ -8,6 +8,7 @@ it to be.
 Patches applied:
  - Fullgaps (https://dwm.suckless.org/patches/fullgaps/)
  - Swallow (https://dwm.suckless.org/patches/swallow/)
+ - xrdb (https://dwm.suckless.org/patches/xrdb/)
 
 Below is the rest of dwm's README.
 
