@@ -3,7 +3,8 @@ My dwm
 This is my fork of dwm. There isn't much to it since dwm is feature complete. I have riced 
 it by following Bugswriter's guide (https://www.youtube.com/watch?v=g8_d2rnwQdo) within 
 reason. I will tweak it every now and then but as for right now it is exactly where I want
-it to be.
+it to be. Note that I also have a script to set the wallpaper and colors but you should
+probably just make that yourself.
 
 Patches applied:
  - Fullgaps (https://dwm.suckless.org/patches/fullgaps/)
