@@ -7,8 +7,8 @@ static const unsigned int snap      = 32;       /* snap pixel */
 static const int swallowfloating    = 0;        /* 1 means swallow floating windows by default */
 static const int showbar            = 0;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
-static const char *fonts[]          = { "mononoki:size=12" };
-static const char dmenufont[]       = "mononoki:size=12";
+static const char *fonts[]          = { "Hack Nerd Font:pixelsize=30:anitalias=true:autohint=true" };
+static const char dmenufont[]       = "Hack Nerd Font:pixelsize=30:anitalias=true:autohint=true";
 static char normbgcolor[]           = "#222222";
 static char normbordercolor[]       = "#444444";
 static char normfgcolor[]           = "#bbbbbb";
@@ -22,7 +22,7 @@ static char *colors[][3] = {
  };
 
 /* tagging */
-static const char *tags[] = { "~/", ">_", "{}", "WWW", "$", "#" };
+static const char *tags[] = { "", "", "", "", "", "" };
 
 static const Rule rules[] = {
 	/* xprop(1):
