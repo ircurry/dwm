@@ -29,13 +29,15 @@ static const Rule rules[] = {
 	 *	WM_CLASS(STRING) = instance, class
 	 *	WM_NAME(STRING) = title
 	 */
-	/* class            instance  title           tags mask  isfloating  isterminal  noswallow  monitor */
-	{ "Gimp",           NULL,     NULL,           0,         1,          0,           0,        -1 },
-	{ "Firefox",        NULL,     NULL,           1 << 8,    0,          0,          -1,        -1 },
-	{ "St",             NULL,     NULL,           0,         0,          1,           0,        -1 },
-	{ "Alacritty",      NULL,     NULL,           0,         0,          1,           0,        -1 },
-	{ NULL,             NULL,     "Event Tester", 0,         0,          0,           1,        -1 }, /* xev */
-};
+	/* class        instance  title           tags mask  isfloating  isterminal  noswallow  monitor */
+	{ "Gimp",       NULL,     NULL,           0,         1,          0,           0,        -1 },
+	{ "Firefox",    NULL,     NULL,           1 << 3,    0,          0,          -1,        -1 },
+	{ "St",         NULL,     NULL,           0,         0,          1,           0,        -1 },
+	{ "Alacritty",  NULL,     NULL,           0,         0,          1,           0,        -1 },
+	{ "GNU Emacs",  NULL,     NULL,           1 << 2,    0,          0,           1,        -1 },
+	{ "Hometag",    NULL,     NULL,           1,         0,          1,           0,        -1 },
+	{ "eww",        NULL,     NULL,           0,         1,          0,           0,        -1 },
+	{ NULL,         NULL,     "Event Tester", 0,         0,          0,           1,        -1 }, /* xev */};
 
 /* layout(s) */
 static const float mfact     = 0.55; /* factor of master area size [0.05..0.95] */
