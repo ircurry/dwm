@@ -36,6 +36,7 @@ static const Rule rules[] = {
 	{ "Alacritty",  NULL,     NULL,           0,         0,          1,           0,        -1 },
 	{ "GNU Emacs",  NULL,     NULL,           1 << 2,    0,          0,           1,        -1 },
 	{ "Hometag",    NULL,     NULL,           1,         0,          1,           0,        -1 },
+	{ "Launchfzf",  NULL,     NULL,           0,         1,          1,           0,        -1 },
 	{ "eww",        NULL,     NULL,           0,         1,          0,           0,        -1 },
 	{ NULL,         NULL,     "Event Tester", 0,         0,          0,           1,        -1 }, /* xev */};
 
