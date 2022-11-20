@@ -100,14 +100,17 @@ static const Layout layouts[] = {
 
 /* commands */
 static const char *dmenucmd[] = { "dmenu_run", "-fn", dmenufont, "-nb", normbgcolor, "-nf", normfgcolor, "-sb", selbordercolor, "-sf", selfgcolor, NULL };
+// static const char *termcmd[]  = { "st", NULL };
 static const char *termcmd[]  = { "alacritty", NULL };
-static const char *emacscmd[]  = { "emacs", NULL };
+static const char *emacscmd[]  = { "emacsclient", "-c", "-a", "'emacs'", NULL };
+static const char *emacsfscmd[]  = { "emacs", "-fs", NULL };
 
 static const Key keys[] = {
 	/* modifier                     key        function        argument */
 	{ MODKEY,                       XK_r,      spawn,          {.v = dmenucmd } },
 	{ MODKEY|ShiftMask,             XK_Return, spawn,          {.v = termcmd } },
 	{ MODKEY,                       XK_e,      spawn,          {.v = emacscmd } },
+	{ MODKEY|ShiftMask,             XK_e,      spawn,          {.v = emacsfscmd } },
 	{ MODKEY,                       XK_b,      togglebar,      {0} },
 	{ MODKEY,                       XK_j,      focusstack,     {.i = +1 } },
 	{ MODKEY,                       XK_k,      focusstack,     {.i = -1 } },
