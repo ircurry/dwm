@@ -7,8 +7,8 @@ static const unsigned int snap      = 32;       /* snap pixel */
 static const int swallowfloating    = 0;        /* 1 means swallow floating windows by default */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
-static const char *fonts[]          = { "mononoki:size=12", "Hack Nerd Font:pixelsize=38:autohint=trueanitalias=true" };
-static const char dmenufont[]       = "mononoki:size=12";
+static const char *fonts[]          = { "Iosevka Term:size=12", "Hack Nerd Font:pixelsize=38:autohint=trueanitalias=true" };
+static const char dmenufont[]       = "Iosevka Term:size=12";
 static char normbgcolor[]           = "#222222";
 static char normbordercolor[]       = "#444444";
 static char normfgcolor[]           = "#bbbbbb";
@@ -56,7 +56,8 @@ static char *colors[][3] = {
  };
 
 /* tagging */
-static const char *tags[] = { "~/", ">_", "{}", "WWW", "$", "#" };
+//static const char *tags[] = { "~/", ">_", "{}", "WWW", "$", "#" };
+static const char *tags[] = { " ", " ", "", " ", " ", "奈 " };
 
 static const Rule rules[] = {
 	/* xprop(1):
@@ -76,7 +77,7 @@ static const Rule rules[] = {
 
 /* layout(s) */
 static const float mfact     = 0.55; /* factor of master area size [0.05..0.95] */
-static const int nmaster     = 0;    /* number of clients in master area */
+static const int nmaster     = 2;    /* number of clients in master area */
 static const int resizehints = 1;    /* 1 means respect size hints in tiled resizals */
 static const int lockfullscreen = 1; /* 1 will force focus on the fullscreen window */
 
