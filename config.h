@@ -7,7 +7,7 @@ static const unsigned int snap      = 32;       /* snap pixel */
 static const int swallowfloating    = 0;        /* 1 means swallow floating windows by default */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
-static const char *fonts[]          = { "Iosevka Term:size=12", "Hack Nerd Font:size=14:autohint=trueanitalias=true" };
+static const char *fonts[]          = { "Iosevka Term:size=12", "Hack Nerd Font:size=15:autohint=trueanitalias=true" };
 static const char dmenufont[]       = "Iosevka Term:size=12";
 static char normbgcolor[]           = "#222222";
 static char normbordercolor[]       = "#444444";
